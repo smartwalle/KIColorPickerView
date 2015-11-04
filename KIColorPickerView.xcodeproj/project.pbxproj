@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18699B4B1BE98888009E2340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B4A1BE98888009E2340 /* main.m */; };
+		18699B4E1BE98888009E2340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B4D1BE98888009E2340 /* AppDelegate.m */; };
+		18699B511BE98888009E2340 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B501BE98888009E2340 /* ViewController.m */; };
+		18699B541BE98888009E2340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18699B521BE98888009E2340 /* Main.storyboard */; };
+		18699B561BE98888009E2340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18699B551BE98888009E2340 /* Images.xcassets */; };
+		18699B591BE98888009E2340 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18699B571BE98888009E2340 /* LaunchScreen.xib */; };
+		18699B651BE98888009E2340 /* KIColorPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B641BE98888009E2340 /* KIColorPickerViewTests.m */; };
+		18699B731BE988AF009E2340 /* KIColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B701BE988AF009E2340 /* KIColorPickerView.m */; };
+		18699B741BE988AF009E2340 /* KIHSVColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B721BE988AF009E2340 /* KIHSVColorPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18699B5F1BE98888009E2340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18699B3D1BE98888009E2340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18699B441BE98888009E2340;
+			remoteInfo = KIColorPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18699B451BE98888009E2340 /* KIColorPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIColorPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18699B491BE98888009E2340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18699B4A1BE98888009E2340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18699B4C1BE98888009E2340 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18699B4D1BE98888009E2340 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18699B4F1BE98888009E2340 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18699B501BE98888009E2340 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18699B531BE98888009E2340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18699B551BE98888009E2340 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18699B581BE98888009E2340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18699B5E1BE98888009E2340 /* KIColorPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIColorPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18699B631BE98888009E2340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18699B641BE98888009E2340 /* KIColorPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIColorPickerViewTests.m; sourceTree = "<group>"; };
+		18699B6F1BE988AF009E2340 /* KIColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIColorPickerView.h; sourceTree = "<group>"; };
+		18699B701BE988AF009E2340 /* KIColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIColorPickerView.m; sourceTree = "<group>"; };
+		18699B711BE988AF009E2340 /* KIHSVColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIHSVColorPickerView.h; sourceTree = "<group>"; };
+		18699B721BE988AF009E2340 /* KIHSVColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIHSVColorPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18699B421BE98888009E2340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699B5B1BE98888009E2340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18699B3C1BE98888009E2340 = {
+			isa = PBXGroup;
+			children = (
+				18699B471BE98888009E2340 /* KIColorPickerView */,
+				18699B611BE98888009E2340 /* KIColorPickerViewTests */,
+				18699B461BE98888009E2340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18699B461BE98888009E2340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18699B451BE98888009E2340 /* KIColorPickerView.app */,
+				18699B5E1BE98888009E2340 /* KIColorPickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18699B471BE98888009E2340 /* KIColorPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				18699B6E1BE988AF009E2340 /* KIColorPickerView */,
+				18699B4C1BE98888009E2340 /* AppDelegate.h */,
+				18699B4D1BE98888009E2340 /* AppDelegate.m */,
+				18699B4F1BE98888009E2340 /* ViewController.h */,
+				18699B501BE98888009E2340 /* ViewController.m */,
+				18699B521BE98888009E2340 /* Main.storyboard */,
+				18699B551BE98888009E2340 /* Images.xcassets */,
+				18699B571BE98888009E2340 /* LaunchScreen.xib */,
+				18699B481BE98888009E2340 /* Supporting Files */,
+			);
+			path = KIColorPickerView;
+			sourceTree = "<group>";
+		};
+		18699B481BE98888009E2340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18699B491BE98888009E2340 /* Info.plist */,
+				18699B4A1BE98888009E2340 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18699B611BE98888009E2340 /* KIColorPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				18699B641BE98888009E2340 /* KIColorPickerViewTests.m */,
+				18699B621BE98888009E2340 /* Supporting Files */,
+			);
+			path = KIColorPickerViewTests;
+			sourceTree = "<group>";
+		};
+		18699B621BE98888009E2340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18699B631BE98888009E2340 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18699B6E1BE988AF009E2340 /* KIColorPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				18699B6F1BE988AF009E2340 /* KIColorPickerView.h */,
+				18699B701BE988AF009E2340 /* KIColorPickerView.m */,
+				18699B711BE988AF009E2340 /* KIHSVColorPickerView.h */,
+				18699B721BE988AF009E2340 /* KIHSVColorPickerView.m */,
+			);
+			path = KIColorPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18699B441BE98888009E2340 /* KIColorPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18699B681BE98888009E2340 /* Build configuration list for PBXNativeTarget "KIColorPickerView" */;
+			buildPhases = (
+				18699B411BE98888009E2340 /* Sources */,
+				18699B421BE98888009E2340 /* Frameworks */,
+				18699B431BE98888009E2340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIColorPickerView;
+			productName = KIColorPickerView;
+			productReference = 18699B451BE98888009E2340 /* KIColorPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18699B5D1BE98888009E2340 /* KIColorPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18699B6B1BE98888009E2340 /* Build configuration list for PBXNativeTarget "KIColorPickerViewTests" */;
+			buildPhases = (
+				18699B5A1BE98888009E2340 /* Sources */,
+				18699B5B1BE98888009E2340 /* Frameworks */,
+				18699B5C1BE98888009E2340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18699B601BE98888009E2340 /* PBXTargetDependency */,
+			);
+			name = KIColorPickerViewTests;
+			productName = KIColorPickerViewTests;
+			productReference = 18699B5E1BE98888009E2340 /* KIColorPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18699B3D1BE98888009E2340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = smartwalle;
+				TargetAttributes = {
+					18699B441BE98888009E2340 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					18699B5D1BE98888009E2340 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 18699B441BE98888009E2340;
+					};
+				};
+			};
+			buildConfigurationList = 18699B401BE98888009E2340 /* Build configuration list for PBXProject "KIColorPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18699B3C1BE98888009E2340;
+			productRefGroup = 18699B461BE98888009E2340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18699B441BE98888009E2340 /* KIColorPickerView */,
+				18699B5D1BE98888009E2340 /* KIColorPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18699B431BE98888009E2340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699B541BE98888009E2340 /* Main.storyboard in Resources */,
+				18699B591BE98888009E2340 /* LaunchScreen.xib in Resources */,
+				18699B561BE98888009E2340 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699B5C1BE98888009E2340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18699B411BE98888009E2340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699B511BE98888009E2340 /* ViewController.m in Sources */,
+				18699B4E1BE98888009E2340 /* AppDelegate.m in Sources */,
+				18699B731BE988AF009E2340 /* KIColorPickerView.m in Sources */,
+				18699B741BE988AF009E2340 /* KIHSVColorPickerView.m in Sources */,
+				18699B4B1BE98888009E2340 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699B5A1BE98888009E2340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699B651BE98888009E2340 /* KIColorPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18699B601BE98888009E2340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18699B441BE98888009E2340 /* KIColorPickerView */;
+			targetProxy = 18699B5F1BE98888009E2340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18699B521BE98888009E2340 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18699B531BE98888009E2340 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18699B571BE98888009E2340 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18699B581BE98888009E2340 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18699B661BE98888009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18699B671BE98888009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18699B691BE98888009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIColorPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18699B6A1BE98888009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIColorPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18699B6C1BE98888009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIColorPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIColorPickerView.app/KIColorPickerView";
+			};
+			name = Debug;
+		};
+		18699B6D1BE98888009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIColorPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIColorPickerView.app/KIColorPickerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18699B401BE98888009E2340 /* Build configuration list for PBXProject "KIColorPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699B661BE98888009E2340 /* Debug */,
+				18699B671BE98888009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18699B681BE98888009E2340 /* Build configuration list for PBXNativeTarget "KIColorPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699B691BE98888009E2340 /* Debug */,
+				18699B6A1BE98888009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18699B6B1BE98888009E2340 /* Build configuration list for PBXNativeTarget "KIColorPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699B6C1BE98888009E2340 /* Debug */,
+				18699B6D1BE98888009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18699B3D1BE98888009E2340 /* Project object */;
+}
